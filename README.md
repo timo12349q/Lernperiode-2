@@ -19,7 +19,14 @@ Heute habe ich einen einen Number Guesser programmiert. Das Programm sagt nach d
  -  [x] Den Number Guesser noch so erweitern das der Nutzer selber entscheiden kann zwischen wie grossen Zahlen er raten kann.
 
 23.10.2026
-- [ ] Das neue Projekt den Taschengeld Rechner beginnen.
-- [ ] Das Projekt so weit bringen das es berechnen kann wie viel Geld man pro Woche brauchen kann.
-- [ ] Das Programm soll die eingegebenen Beträge speichern und ausgeben können.
-- [ ] Im Projekt vom Modul 319 weiterarbeiten.
+- [x] Das neue Projekt den Taschengeld Rechner beginnen.
+- [x] Das Projekt so weit bringen das es berechnen kann wie viel Geld man z.B. pro Woche brauchen kann.
+- [x] Das Programm soll die eingegebenen Beträge speichern und ausgeben können.
+
+# HA auf den 30.10.2026
+- [ ] Das Programm soll, mit einem Betrag, der der Nutzer durchschnittich braucht berechnen.
+
+# 30.10.2026
+- [ ] Das Programm soll prüfen und sagen können, ob der Betrag für etaws bestimmtes reicht.
+- [ ] Das Programm soll mit dem Nutzer ein Sparziel setzen (z.B. es soll 40% von 400 Franken gespart werden.
+- [ ] Das Programm soll Ausgaben kategorisieren können (z.B. für Essen, Games, Kleidung oder Freizeit).
