@@ -30,3 +30,4 @@ Heute habe ich einen einen Number Guesser programmiert. Das Programm sagt nach d
 - [ ] Das Programm soll prüfen und sagen können, ob der Betrag für etaws bestimmtes reicht.
 - [ ] Das Programm soll mit dem Nutzer ein Sparziel setzen (z.B. es soll 40% von 400 Franken gespart werden.
 - [ ] Das Programm soll Ausgaben kategorisieren können (z.B. für Essen, Games, Kleidung oder Freizeit).
+- [ ] Das Programm soll Spartipps geben können. 
