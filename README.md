@@ -24,7 +24,8 @@ Heute habe ich einen einen Number Guesser programmiert. Das Programm sagt nach d
 - [x] Das Programm soll die eingegebenen Beträge speichern und ausgeben können.
 
 # HA auf den 30.10.2026
-- [ ] Das Programm soll, mit einem Betrag, der der Nutzer durchschnittich braucht berechnen.
+- [x] Das Programm soll, mit einem Betrag, der der Nutzer durchschnittich braucht berechnen.
+Ich habe programmiert, dass das Programm ausgibt wie viel Geld der Nutzer durchschnittlich in zum Beispiel einer Woche zur Verfügung hat.
 
 # 30.10.2026
 - [ ] Das Programm soll prüfen und sagen können, ob der Betrag für etaws bestimmtes reicht.
