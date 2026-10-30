@@ -28,7 +28,9 @@ Heute habe ich einen einen Number Guesser programmiert. Das Programm sagt nach d
 Ich habe programmiert, dass das Programm ausgibt wie viel Geld der Nutzer durchschnittlich in zum Beispiel einer Woche zur Verfügung hat.
 
 # 30.10.2026
-- [ ] Das Programm soll prüfen und sagen können, ob der Betrag für etaws bestimmtes reicht.
-- [ ] Das Programm soll mit dem Nutzer ein Sparziel setzen (z.B. es soll 40% von 400 Franken gespart werden.
-- [ ] Das Programm soll Ausgaben kategorisieren können (z.B. für Essen, Games, Kleidung oder Freizeit).
+- [x] Das Programm soll prüfen und sagen können, ob der Betrag für etaws bestimmtes reicht.
+- [x] Das Programm soll mit dem Nutzer ein Sparziel setzen (z.B. es soll 40% von 400 Franken gespart werden.
+- [x] Das Programm soll Ausgaben kategorisieren können (z.B. für Essen, Games, Kleidung oder Freizeit).
+
+# HA 
 - [ ] Das Programm soll Spartipps geben können. 
