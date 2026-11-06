@@ -35,8 +35,15 @@ Ich habe programmiert, dass das Programm ausgibt wie viel Geld der Nutzer durchs
 Heute habe ich programmiert, dass das Programm prüfet ob das Geld für etwas bestimmtes reicht. Es fragt den Nutzer wie viel Prozent von dem Taschengeld gespart werden will. Das Programm fragt den Nutzer für was er sein Geld ausgeben will und wie viel.
 
 # 6.11.2026
-- [ ] Das Programm soll Spartipps geben können.
-- [ ] Weitere Kategorien hinzufügen für die der Nutzer Geld ausgeben könnte.
-- [ ] Das Programm soll berechnen können wie lange man sparen müsste, um etwas bestimmtes kaufen zu können.
-- [ ] Das Programm soll zeigen für was am meisten Geld ausgegeben wird.
-- [ ] Der Nutzer soll ein bestimmtes Sparziel eingeben können. 
+- [x] Das Programm soll Spartipps geben können.
+- [x] Weitere Kategorien hinzufügen für die der Nutzer Geld ausgeben könnte.
+- [x] Das Programm soll berechnen können wie lange man sparen müsste, um etwas bestimmtes kaufen zu können.
+- [x] Das Programm soll zeigen für was am meisten Geld ausgegeben wird.
+- [x] Der Nutzer soll ein bestimmtes Sparziel eingeben können.
+
+Ich habe programmiert, dass das Programm Spartipps gibt. Ich habe mehr Kategorien eingefügt. Das Programm kann berechnen wie lange man für etwas sparen müsste. Es zeigt wofür am meisten Geld ausgegeben wird. Der Nutzer kann selbst eingeben für was er sparen möchte.
+
+# 13.11.2026
+- [ ] Neues Projekt Französisch Vokabeltrainer anfangen.
+- [ ] Ersten Wörter in den Vokabeltrainee einfügen.
+- [ ] Am Projekt vom Mittwoch weiter arbeiten
