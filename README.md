@@ -46,4 +46,4 @@ Ich habe programmiert, dass das Programm Spartipps gibt. Ich habe mehr Kategorie
 # 13.11.2026
 - [ ] Neues Projekt Französisch Vokabeltrainer anfangen.
 - [ ] Ersten Wörter in den Vokabeltrainee einfügen.
-- [ ] Am Projekt vom Mittwoch weiter arbeiten
+- [ ] Im Vokabeltrainer die nächste Lektion hinzugügen.
