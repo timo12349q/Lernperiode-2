@@ -44,6 +44,17 @@ Heute habe ich programmiert, dass das Programm prüfet ob das Geld für etwas be
 Ich habe programmiert, dass das Programm Spartipps gibt. Ich habe mehr Kategorien eingefügt. Das Programm kann berechnen wie lange man für etwas sparen müsste. Es zeigt wofür am meisten Geld ausgegeben wird. Der Nutzer kann selbst eingeben für was er sparen möchte.
 
 # 13.11.2026
-- [ ] Neues Projekt Französisch Vokabeltrainer anfangen.
-- [ ] Ersten Wörter in den Vokabeltrainee einfügen.
-- [ ] Im Vokabeltrainer die nächste Lektion hinzugügen.
+- [x] Neues Projekt Französisch Vokabeltrainer anfangen.
+- [x] Ersten Wörter in den Vokabeltrainee einfügen.
+- [x] Im Vokabeltrainer die nächste Lektion hinzugügen.
+
+Ich habe heute mein neues Projekt, den Vokabeltrainer für das Fach Französisch, angefangen. Ich habe die Lektionen 3 Entrée und 3 A in den Vokabeltrainer einzufügt.
+
+# HA auf den 20.11.2026
+- [ ] Die Lektion B in das Programm einfügen.
+
+
+# 20.11.2026
+- [ ] Programmieren, dass das Programm mich die von mir gewünschte Lektion abfragt.
+- [ ] Programmieren, dass das Programm mir meine Punktzahl anzeigt.
+- [ ] Das Programm soll den Nutzer fragen, wie viele Wörter er ihn abragen soll.
