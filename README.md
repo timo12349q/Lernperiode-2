@@ -51,7 +51,7 @@ Ich habe programmiert, dass das Programm Spartipps gibt. Ich habe mehr Kategorie
 Ich habe heute mein neues Projekt, den Vokabeltrainer für das Fach Französisch, angefangen. Ich habe die Lektionen 3 Entrée und 3 A in den Vokabeltrainer einzufügt.
 
 # HA auf den 20.11.2026
-- [ ] Die Lektion B in das Programm einfügen.
+- [x] Die Lektion B in das Programm einfügen.
 
 
 # 20.11.2026
