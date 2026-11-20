@@ -30,5 +30,52 @@ string[] französischB =
     "un fou rire","garantir qc","kiffer qn/qc (fam.)","mort de rire (fam.)","Il y a de l'animation. (f.)","vivre","un épicier/une épicière","être au courant de qc","un médecin/une femme médecin","un hôpital/des hôpitaux","un paradis","une impression","un rapport","repartir","revoir qn/qc","venir chercher qn","remercier qn de/pour qc",
     "se préparer à qc","poli, polie","répéter qc","le contraire (de)"};
 
+string[] fragen;
+string[] antworten;
 
+string auswahl = lektion.ToLower().Replace("lektion 3", "").Trim();
+
+if (auswahl == "entrée" || auswahl == "entree")
+{
+    fragen = deutsch;
+    antworten = französisch;
+}
+else if (auswahl == "a")
+{
+    fragen = deutschA;
+    antworten = französischA;
+}
+else if (auswahl == "b")
+{
+    fragen = deutschB;
+    antworten = französischB;
+}
+else
+{
+    Console.WriteLine("Ungültige Eingabe. Bitte starte das Programm neu.");
+    Console.ReadKey();
+    return;
+}
+Console.ReadKey();
+Console.WriteLine();
+int punkte = 0;
+
+for (int i = 0; i < fragen.Length; i++)
+{
+    Console.WriteLine("Deutsch: " + fragen[i]);
+    Console.Write("Französisch: ");
+    string eingabe = Console.ReadLine();
+
+    if (eingabe.Trim().ToLower() == antworten[i].ToLower())
+    {
+        Console.WriteLine("Richtig!");
+        punkte++;
+    }
+    else
+    {
+        Console.WriteLine("Falsch. Richtig wäre: " + antworten[i]);
+    }
+    Console.WriteLine();
+}
+Console.WriteLine("Punktzahl: " + punkte + " von " + fragen.Length);
 Console.ReadKey();
