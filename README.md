@@ -56,5 +56,5 @@ Ich habe heute mein neues Projekt, den Vokabeltrainer für das Fach Französisch
 
 # 20.11.2026
 - [ ] Programmieren, dass das Programm mich die von mir gewünschte Lektion abfragt.
-- [ ] Programmieren, dass das Programm mir meine Punktzahl anzeigt.
-- [ ] Das Programm soll den Nutzer fragen, wie viele Wörter er ihn abragen soll.
+- [ ] Programmieren, dass das Programm mir sagt ob ich das Wort richtig eingegeben habe.
+- [ ] Das Programm soll dem Nutzer, seine erreichte Punktzahl anzeigen.
