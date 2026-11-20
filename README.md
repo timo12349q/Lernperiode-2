@@ -55,6 +55,16 @@ Ich habe heute mein neues Projekt, den Vokabeltrainer für das Fach Französisch
 
 
 # 20.11.2026
-- [ ] Programmieren, dass das Programm mich die von mir gewünschte Lektion abfragt.
-- [ ] Programmieren, dass das Programm mir sagt ob ich das Wort richtig eingegeben habe.
-- [ ] Das Programm soll dem Nutzer, seine erreichte Punktzahl anzeigen.
+- [x] Programmieren, dass das Programm mich die von mir gewünschte Lektion abfragt.
+- [x] Programmieren, dass das Programm mir sagt ob ich das Wort richtig eingegeben habe.
+- [x] Das Programm soll dem Nutzer, seine erreichte Punktzahl anzeigen.
+
+Heute habe ich programmiert, dass das Programm mich meine gewünschte Lektion abfragt, mir sagt ob meine eingegebene Antwort richtig oder falsch ist und das es meine Punktzahl angiebt.
+
+# HA auf den 27.11.2026
+- [ ] Lektion 4 Entrée in das Programm einfügen
+
+# 27.11.2026
+- [ ] Lektion 4 A in das Programm einfügen.
+- [ ] Lektion 4 B in das Programm einfügen.
+- [ ] Programmieren, dass die neu eingefügten Lektionen auch ausgewählt werden können.
