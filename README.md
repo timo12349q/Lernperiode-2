@@ -62,7 +62,7 @@ Ich habe heute mein neues Projekt, den Vokabeltrainer für das Fach Französisch
 Heute habe ich programmiert, dass das Programm mich meine gewünschte Lektion abfragt, mir sagt ob meine eingegebene Antwort richtig oder falsch ist und das es meine Punktzahl angiebt.
 
 # HA auf den 27.11.2026
-- [ ] Lektion 4 Entrée in das Programm einfügen
+- [x] Lektion 4 Entrée in das Programm einfügen
 
 # 27.11.2026
 - [ ] Lektion 4 A in das Programm einfügen.
