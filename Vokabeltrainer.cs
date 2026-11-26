@@ -30,6 +30,24 @@ string[] französischB =
     "un fou rire","garantir qc","kiffer qn/qc (fam.)","mort de rire (fam.)","Il y a de l'animation. (f.)","vivre","un épicier/une épicière","être au courant de qc","un médecin/une femme médecin","un hôpital/des hôpitaux","un paradis","une impression","un rapport","repartir","revoir qn/qc","venir chercher qn","remercier qn de/pour qc",
     "se préparer à qc","poli, polie","répéter qc","le contraire (de)"};
 
+string[] deutsch4E =
+{
+"eine Sprache","Belgien","das Herz","im Herzen von","Luxemburg","die Niederlande","Wallonien (Region in Belgien)","Flandern (Region in Belgien)","Flämisch (in Belgien gesprochenes Niederländisch)","eine Million",
+"ein Einwohner/eine Einwohnerin","eine Amtssprache","Niederländisch","ein Symbol","eine Hauptstadt","kosmopolitisch","zweisprachig","ein Ziel, ein Bestimmungsort","die Entspannung",
+"die Nordsee","ein Belgier/eine Belgierin","Pommes frites","eine Waffel","belgisch","ein Zeichner/eine Zeichnerin"
+};
+
+string[] französisch4E =
+{
+"une langue","la Belgique","le coeur","au coeur de","le Luxembourg","les Pays-Bas","la Wallonie","la Flandre","le flamand","un million","un habitant, une habitante","une langue officielle",
+"le néerlandais","un symbole","une capitale","cosmopolite","bilingue","une destination","la détente","la mer du Nord","un Belge/une Belge","des frites","une gaufre","belge",
+"un dessinateur/une dessinatrice"
+};
+
+
+
+
+
 string[] fragen;
 string[] antworten;
 
