@@ -1,14 +1,14 @@
 ﻿Console.WriteLine("Vokabeltrainer Französisch");
-Console.WriteLine("Aus welcher Lektion möchten Sie Vokabeln lernen? (Lektion 3 entrée, Lektion 3 A, Lektion 3 B");
+Console.WriteLine("Aus welcher Lektion möchten Sie Vokabeln lernen? (Lektion 3 E, Lektion 3 A, Lektion 3 B, Lektion 4 E, Lektion 4 A, Lektion 4 B)");
 string lektion = Console.ReadLine();
 Console.WriteLine();
 Console.WriteLine("Deine Auswahlen:");
-Console.WriteLine("Lektion: " + lektion);
+Console.WriteLine("===== Lektion: " + lektion + "=====");
 Console.WriteLine();
 Console.WriteLine("Drücke eine Taste, um mit dem Lernen zu beginnen.");
 
 string[] deutsch =
-{ "möglich", "sich mit jdm. austauschen", "regalmässig", "ein Austausch", "eine Postkarte", "der Sommer", "draussen", "eine Felsbucht", "der Kajak", "von jdm./etw. Fan sein", "ein Abonnement", "Das ist der Wahnsinn", "ein Korken", "ein Gefängnis", "ein Freund/eine Freundin"};
+{ "möglich", "sich mit jdm. austauschen", "regelmässig", "ein Austausch", "eine Postkarte", "der Sommer", "draussen", "eine Felsbucht", "der Kajak", "von jdm./etw. Fan sein", "ein Abonnement", "Das ist der Wahnsinn", "ein Korken", "ein Gefängnis", "ein Freund/eine Freundin"};
 string[] französisch =
 { "possible", "échanger avec qn.", "régulièrement", "un échange", "une carte postale", "l'été", "dehors", "une crique", "le kayak", "être fan de qn./qc.", "un abonnement", "C'est la folie!", "un bouchon", "une prison", "un ami/une amie" };
 
@@ -44,30 +44,71 @@ string[] französisch4E =
 "un dessinateur/une dessinatrice"
 };
 
+string[] deutsch4A =
+{
+"eine Kampagne","etw. herausstellen","eine Nationalität, eine Staatsangehörigkeit","ein Drittel des/der","ein Ursprung, eine Herkunft","ausländisch, fremd","ein Ereignis, eine Veranstaltung","Kultur-, kulturell",
+"ein Reporter/eine Reporterin","jdn interviewen","das Studium","studieren","dort, dorthin, daran","eine Arbeit/(Bau)Arbeiten","daher, von dort, daraus, darüber","das Ausland","eine Universität",
+"ein Student/eine Studentin","lebendig","die Miete","jdn./etw. nützen; jdn./etw. ausnutzen; von jdm./etw. profitieren; etw. geniessen","ein Übersetzer/eine Übersetzerin","eine (Sprech)Blase",
+"im Grunde genommen, eigentlich","die Qualität","ideal","eine Miesmuschel","der Kongo","eine Kolonie","ein Stipendium","ein Kongolese/eine Kongolesin","afrikanisch","Afrika","Grossbritannien",
+"Österreich","die Vereinigten Staaten","Portugal","Russland","die Schweiz","die Türkei"
+};
 
+string[] französisch4A =
+{
+"une campagne","mettre qc en avant","une nationalité","un tiers de","une origine","étranger/étrangère","un évènement","culturel, culturelle",
+"un reporter/une reporter","interviewer qn","les études (f. pl.)","faire ses études","y","un travail/des travaux","en","l'étranger (m.)","une université",
+"un étudiant/une étudiante","vivant, vivante","le loyer","profiter de qn/qc","un traducteur/une traductrice","une bulle",
+"en fait","la qualité","idéal/idéale/idéaux/idéales","une moule","le Congo","une colonie","une bourse","un Congolais/une Congolaise","africain/africaine","l'Afrique","la Grande-Bretagne",
+"l'Autriche (f.)","les Etats-Unis (m. pl.)","le Portugal","la Russie","la Suisse","la Turquie"
+};
 
+string[] deutsch4B =
+{
+"ein Schritt","auf den Spuren von","Welt-","ohne etw. zu tun","übertreiben","spontan","spontan","Wen...?","vermutlich","mehr als",
+"bevor man etw. tut","geboren","Bezeichnung für die Comic-Kunst","spazieren gehen","denn","jdn/etw. anziehen","Was...?","unterhaltsam, lustig","gerade etw. tun","als erster",
+"nächster/nächste/nächstes","zahlreich","französischsprachig","japanisch","hinter","eine Tastatur","eine Person (Literatur, Film, Theater); eine Figur","unter","ein Dichter/eine Dichterin","eine Uniform",
+"eine Waffe","gerade etw. getan haben","etw. illustrieren","das Imaginäre","ein Pirat","ein Hexenmeister/eine Hexe","ein Einhorn","jdm gefallen","ein Projekt","ein Märchen",
+"jdn. inspirieren","sich auf etw. einstimmen","ein Seemann; ein Matrose","jdm. erlauben, etw. zu tun; jdm. etw. ermöglichen","etw. schaffen; gründen","ein Tier/Tiere","ein Auge/Augen","braun","böse, gemein","langweilig",
+"ein Charakter"
+};
+
+string[] französisch4B =
+{
+"un pas","sur les pas de","mondial/mondiale/mondiaux/mondiales","sans faire qc","exagérer","spontané, spontanée","spontanément","Qui est-ce que...?","sans doute","plus de",
+"avant de faire qc","né/née","le 9e art","se promener","car","attirer qn/qc","Qu'est-ce qui...?","amusant, amusante","être en train de faire qc","en premier",
+"prochain, prochaine","nombreux/nombreuse","francophone","japonais, japonaise","derrière","un clavier","un personnage","parmi","un poète/une poète","un uniforme",
+"une arme","venir de faire qc","illustrer qc","l'imaginaire","un pirate","un sorcier/une sorcière","une licorne","plaire à qn","un projet","un conte",
+"inspirer qn","se mettre en condition","un marin","permettre à qn de faire qc","créer qc","un animal/des animaux","un oeil/des yeux","marron","méchant, méchante","ennuyeux/ennuyeuse",
+"un caractère"
+};
 
 
 string[] fragen;
 string[] antworten;
 
-string auswahl = lektion.ToLower().Replace("lektion 3", "").Trim();
+string auswahl = lektion.ToLower().Trim();
 
-if (auswahl == "entrée" || auswahl == "entree")
+if (auswahl == "lektion 3 e")
 {
     fragen = deutsch;
     antworten = französisch;
 }
-else if (auswahl == "a")
+else if (auswahl == "lektion 3 a")
 {
     fragen = deutschA;
     antworten = französischA;
 }
-else if (auswahl == "b")
+else if (auswahl == "lektion 3 b")
 {
     fragen = deutschB;
     antworten = französischB;
 }
+else if (auswahl == "lektion 4 e")
+{
+    fragen = deutsch4E;
+    antworten = französisch4E;
+}
+
 else
 {
     Console.WriteLine("Ungültige Eingabe. Bitte starte das Programm neu.");
@@ -86,14 +127,20 @@ for (int i = 0; i < fragen.Length; i++)
 
     if (eingabe.Trim().ToLower() == antworten[i].ToLower())
     {
+        Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine("Richtig!");
+        Console.ResetColor();
         punkte++;
     }
     else
     {
+        Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("Falsch. Richtig wäre: " + antworten[i]);
+        Console.ResetColor ();
     }
     Console.WriteLine();
 }
-Console.WriteLine("Punktzahl: " + punkte + " von " + fragen.Length);
+Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine("===== Deine erreichte Punktzahl ist: " + punkte + " von " + fragen.Length + "=====");
 Console.ReadKey();
