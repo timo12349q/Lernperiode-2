@@ -53,7 +53,7 @@ Ich habe heute mein neues Projekt, den Vokabeltrainer für das Fach Französisch
 # HA auf den 20.11.2026
 - [x] Die Lektion B in das Programm einfügen.
 
-
+Ich habe die Lektion eingafügt.
 # 20.11.2026
 - [x] Programmieren, dass das Programm mich die von mir gewünschte Lektion abfragt.
 - [x] Programmieren, dass das Programm mir sagt ob ich das Wort richtig eingegeben habe.
@@ -64,9 +64,13 @@ Heute habe ich programmiert, dass das Programm mich meine gewünschte Lektion ab
 # HA auf den 27.11.2026
 - [x] Lektion 4 Entrée in das Programm einfügen
 
+Ich habe die Lektion eingefügt.
+
 # 27.11.2026
 - [x] Lektion 4 A in das Programm einfügen.
 - [x] Lektion 4 B in das Programm einfügen.
+
+Heute habe ich die 2 Lektionen eingefügt.
 
 # HA auf den 4.12.2026
 - [ ] Programmieren, dass die neu eingefügten Lektionen auch ausgewählt werden können.
