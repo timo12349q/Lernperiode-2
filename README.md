@@ -65,6 +65,13 @@ Heute habe ich programmiert, dass das Programm mich meine gewünschte Lektion ab
 - [x] Lektion 4 Entrée in das Programm einfügen
 
 # 27.11.2026
-- [ ] Lektion 4 A in das Programm einfügen.
-- [ ] Lektion 4 B in das Programm einfügen.
+- [x] Lektion 4 A in das Programm einfügen.
+- [x] Lektion 4 B in das Programm einfügen.
+
+# HA auf den 4.12.2026
 - [ ] Programmieren, dass die neu eingefügten Lektionen auch ausgewählt werden können.
+- [ ] Programmieren, dass die Vokabeln random abgefragt werden.
+
+# 4.12.2026
+- [ ] Falsch eingegebene Vokabeln sollen nochmals abgefragt werden.
+- [ ] Das Programm soll ein besseres Feedback geben und es soll eine Prozentanzeige haben.
